@@ -1,0 +1,26 @@
+-- SELECT Product_ID,Product_Name,Category_ID FROM products WHERE Unit_Price > 50;
+-- SELECT * from customers WHERE Country LIKE 'Germany';
+-- SELECT * from orders WHERE Customer_ID LIKE 'ALFKI';
+-- SELECT SUM(UP.Unit_Price) ,Customer.Customer_ID  FROM Order_Details AS UP, Orders AS Customer GROUP BY Customer.Customer_ID
+-- SELECT * FROM PRODUCTS Order by Unit_Price DESC LIMIT 5
+-- SELECT * FROM employees WHERE EXTRACT(YEAR FROM Birth_Date) < 1960
+-- SELECT * FROM products WHERE Units_In_Stock =0 
+-- SELECT AVG(Unit_Price) from Products
+-- SELECT SUM(quantity*Unit_Price) FROM Order_Details WHERE Product_ID = 7 
+-- SELECT COUNT(*) FROM CATEGORIES
+-- SELECT * FROM Products WHERE Discontinued=1
+-- SELECT * FROM Orders WHERE EXTRACT(YEAR FROM Order_Date) >= 1997
+-- SELECT * FROM Customers WHERE Contact_Title IN ('Owner','CEO')
+-- SELECT * FROM Products ORDER BY Unit_Price DESC LIMIT 1
+-- SELECT AVG(EXTRACT(YEAR FROM CURRENT_DATE)-EXTRACT(YEAR FROM Birth_Date)) FROM Employees
+-- SELECT * FROM Customers WHERE Phone LIKE '%123%'
+-- SELECT * FROM Products WHERE Units_In_Stock < 10 AND Discontinued = 0
+-- SELECT MAX(Unit_Price) AS HighestPrice,MIN(Unit_Price) AS LowestPrice FROM Products
+-- SELECT * FROM Orders WHERE Order_Date = '05-05-1997'
+-- SELECT Quantity_Per_Unit,Product_Name from Products
+-- SELECT Product_ID,Product_Name,Unit_Price  FROM Products WHERE Unit_Price > (SELECT AVG(Unit_Price)FROM Products)
+-- SELECT COUNT(*), CITY FROM Employees GROUP BY City
+
+
+-- WITH GOD'S HELP
+-- ASAF AI PERETS
