@@ -16,7 +16,7 @@
 -- SELECT * FROM Customers WHERE Phone LIKE '%123%'
 -- SELECT * FROM Products WHERE Units_In_Stock < 10 AND Discontinued = 0
 -- SELECT MAX(Unit_Price) AS HighestPrice,MIN(Unit_Price) AS LowestPrice FROM Products
--- SELECT * FROM Orders WHERE Order_Date = '05-05-1997'
+-- SELECT * FROM Orders WHERE Order_Date >= '05-05-1997'
 -- SELECT Quantity_Per_Unit,Product_Name from Products
 -- SELECT Product_ID,Product_Name,Unit_Price  FROM Products WHERE Unit_Price > (SELECT AVG(Unit_Price)FROM Products)
 -- SELECT COUNT(*), CITY FROM Employees GROUP BY City
