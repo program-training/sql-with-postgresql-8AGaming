@@ -1,7 +1,7 @@
 -- SELECT Product_ID,Product_Name,Category_ID FROM products WHERE Unit_Price > 50;
 -- SELECT * from customers WHERE Country LIKE 'Germany';
 -- SELECT * from orders WHERE Customer_ID LIKE 'ALFKI';
--- SELECT SUM(UP.Unit_Price) ,Customer.Customer_ID  FROM Order_Details AS UP, Orders AS Customer GROUP BY Customer.Customer_ID
+-- SELECT SUM(UP.Unit_Price) AS TotalOrders ,Customer.Customer_ID  FROM Order_Details AS UP, Orders AS Customer GROUP BY Customer.Customer_ID
 -- SELECT * FROM PRODUCTS Order by Unit_Price DESC LIMIT 5
 -- SELECT * FROM employees WHERE EXTRACT(YEAR FROM Birth_Date) < 1960
 -- SELECT * FROM products WHERE Units_In_Stock =0 
